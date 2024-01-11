@@ -22,7 +22,7 @@ class Homescreen extends StatelessWidget {
             Row(
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.all(18),
+                  padding: const EdgeInsets.all(20),
                   child: Image.asset('assets/logo.png'),
                 ),
               ],
@@ -50,7 +50,7 @@ class Homescreen extends StatelessWidget {
                 ),
               ),
             ),
-            const Gap(20),
+            const Gap(120),
             Container(
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(

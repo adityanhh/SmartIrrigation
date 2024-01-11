@@ -17,7 +17,7 @@ class Team extends StatelessWidget {
             Row(
               children: <Widget>[
                 Padding(
-                    padding: const EdgeInsets.all(18),
+                    padding: const EdgeInsets.all(20),
                     child: Image.asset('assets/logo.png')),
               ],
             ),
@@ -56,61 +56,13 @@ class Team extends StatelessWidget {
               ),
             ),
             const Gap(20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                Container(
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset('assets/pika.png'),
-                      Text(
-                        'Dhefika Fazhira\n 152021047',
-                        textAlign: TextAlign.center,
-                        style: GoogleFonts.roboto(
-                          fontSize: 14,
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset('assets/nabil.png'),
-                      Text(
-                        'M. Nabil Athillah \n 152021076',
-                        textAlign: TextAlign.center,
-                        style: GoogleFonts.roboto(
-                          fontSize: 14,
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            const Gap(20),
             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
               Container(
                 child: Column(
                   children: <Widget>[
-                    Image.asset('assets/zak.png'),
+                    Image.asset('assets/adit.jpg'),
                     Text(
-                      'Zaky Arif Rahman\n 152021146',
-                      textAlign: TextAlign.justify,
-                      style: GoogleFonts.roboto(
-                        fontSize: 14,
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              Container(
-                child: Column(
-                  children: <Widget>[
-                    Image.asset('assets/kai.png'),
-                    Text(
-                      'Kaifa Nalendra Putra\n 152021195',
+                      'Aditya Nugraha\n 152021040',
                       textAlign: TextAlign.center,
                       style: GoogleFonts.roboto(
                         fontSize: 14,
@@ -119,6 +71,52 @@ class Team extends StatelessWidget {
                   ],
                 ),
               ),
+              //     Container(
+              //       child: Column(
+              //         children: <Widget>[
+              //           Image.asset('assets/nabil.png'),
+              //           Text(
+              //             'M. Nabil Athillah \n 152021076',
+              //             textAlign: TextAlign.center,
+              //             style: GoogleFonts.roboto(
+              //               fontSize: 14,
+              //             ),
+              //           )
+              //         ],
+              //       ),
+              //     ),
+              //   ],
+              // ),
+              // const Gap(20),
+              // Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+              //   Container(
+              //     child: Column(
+              //       children: <Widget>[
+              //         Image.asset('assets/zak.png'),
+              //         Text(
+              //           'Zaky Arif Rahman\n 152021146',
+              //           textAlign: TextAlign.justify,
+              //           style: GoogleFonts.roboto(
+              //             fontSize: 14,
+              //           ),
+              //         )
+              //       ],
+              //     ),
+              //   ),
+              //   Container(
+              //     child: Column(
+              //       children: <Widget>[
+              //         Image.asset('assets/kai.png'),
+              //         Text(
+              //           'Kaifa Nalendra Putra\n 152021195',
+              //           textAlign: TextAlign.center,
+              //           style: GoogleFonts.roboto(
+              //             fontSize: 14,
+              //           ),
+              //         )
+              //       ],
+              //     ),
+              //   ),
             ]),
             const Gap(20),
             Container(

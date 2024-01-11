@@ -21,13 +21,15 @@ class Support extends StatelessWidget {
           Row(
             children: <Widget>[
               Padding(
-                  padding: const EdgeInsets.all(18),
+                  padding: const EdgeInsets.all(20),
                   child: Image.asset('assets/logo.png')),
             ],
           ),
+          const Gap(20),
           Column(
             children: [Image.asset('assets/support.png')],
           ),
+          const Gap(20),
           Container(
             child: Text(
               'Jalin Komunikasi yang Lebih Dekat dengan Tim Kami! Sampaikan Pertanyaan, Saran, atau Kolaborasi melalui Informasi Kontak yang Tersedia. Kami Siap Membantu Anda',
@@ -68,7 +70,7 @@ class Support extends StatelessWidget {
               ),
             ),
           ),
-          const Gap(20),
+          const Gap(200),
           Container(
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
